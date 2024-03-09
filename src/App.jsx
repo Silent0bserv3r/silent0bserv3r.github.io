@@ -91,7 +91,7 @@ function App() {
                 </div>
                 <div>
                     <img
-                        src="https://silent0bserv3r.github.io/assets/programmer-lBuB3GWI.svg"
+                        src="/programmer.svg"
                         alt="programmer"
                         height="400"
                         width="400"
