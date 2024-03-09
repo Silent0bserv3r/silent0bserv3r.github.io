@@ -319,7 +319,7 @@ function App() {
                                     10 + 2 PCM
                                 </h1>
                                 <h2 className="font-semibold text-slate-500">
-                                    DAV CBSE Board
+                                    DAV CBSE Board | 2016 - 2018
                                 </h2>
                                 <ul className="list-disc list-outside ml-4 mt-4">
                                     <li>
@@ -353,7 +353,8 @@ function App() {
                                     Software Engineer
                                 </h1>
                                 <h2 className="font-semibold text-slate-500">
-                                    Syscloud Technologies Pvt. Ltd.
+                                    Syscloud Technologies Pvt. Ltd. | 2022 -
+                                    2024
                                 </h2>
                                 <ul className="list-disc list-outside ml-4 mt-4">
                                     <li>
@@ -416,7 +417,7 @@ function App() {
                                     BTech CSE
                                 </h1>
                                 <h2 className="font-semibold text-slate-500">
-                                    Lovely Professional University
+                                    Lovely Professional University | 2018 - 2022
                                 </h2>
                                 <ul className="list-disc list-outside ml-4 mt-4">
                                     <li>
