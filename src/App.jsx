@@ -109,13 +109,13 @@ function App() {
                 <p className="max-w-xl mt-2 font-semibod text-slate-400">
                     Here are some of my projects
                 </p>
-                <div className="flex w-full justify-between items-center max-w-6xl mt-8">
+                <div className="flex w-full justify-start gap-12 items-center max-w-6xl mt-8">
                     <div
                         id="project1"
-                        className="border-2 border-slate-200 p-2 rounded-lg max-w-[270px] overflow-hidden h-[29rem] group hover:border-indigo-500"
+                        className="border-2 border-slate-200 shadow-md p-2 rounded-lg max-w-[270px] overflow-hidden h-[29rem] group hover:border-indigo-500"
                     >
                         {/* Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. */}
-                        <div className="w-1/6 absolute z-10 flex justify-end translate-y-1 group/git">
+                        <div className="w-[250px] absolute z-10 flex justify-end translate-y-1 group/git">
                             <a
                                 href="https://shortener.garrycodes.co.in/"
                                 target="_blank"
@@ -148,13 +148,13 @@ function App() {
                             </div>
                             <div className="flex gap-2 mt-2">
                                 <h2 className="bg-red-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #React
+                                    #NextJs
                                 </h2>
                                 <h2 className="bg-green-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #JavaScript
+                                    #React
                                 </h2>
                                 <h2 className="bg-blue-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #CSS
+                                    #TailwindCSS
                                 </h2>
                             </div>
                         </div>
@@ -162,18 +162,20 @@ function App() {
 
                     <div
                         id="project2"
-                        className="border-2 border-slate-200 p-2 rounded-lg max-w-[270px] overflow-hidden h-[29rem] group hover:border-indigo-500"
+                        className="border-2 border-slate-200 shadow-md p-2 rounded-lg max-w-[270px] overflow-hidden h-[29rem] group hover:border-indigo-500"
                     >
                         {/* Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. */}
-                        <div className="w-1/6 absolute z-10 flex justify-end translate-y-1">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 496 512"
-                                className="size-10 rounded-lg p-2 bg-slate-200 mr-2"
-                            >
-                                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                            </svg>
-                        </div>
+                        <a href="https://vegibuy.vercel.app/" target="_blank">
+                            <div className="w-[250px] absolute z-10 flex justify-end translate-y-1  group/git">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 496 512"
+                                    className="size-10 rounded-lg p-2 bg-slate-200 group-hover/git:bg-slate-300 mr-2"
+                                >
+                                    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </div>
+                        </a>
                         <img
                             src="https://img.freepik.com/free-vector/people-analyzing-growth-charts-illustrated_23-2148865274.jpg?w=740&t=st=1709793453~exp=1709794053~hmac=2fd38994c6c2053f302dfcad749e4b78f7d1ab808be8432a84bbb0fc685456b2"
                             alt="project"
@@ -184,22 +186,22 @@ function App() {
                         <div className="my-2 p-1">
                             <div className="mt-4 flex flex-col gap-3 text-ellipsis">
                                 <h1 className="text-3xl font-bold text-slate-500 group-hover:text-slate-800">
-                                    CLI Notes
+                                    Vegibuy
                                 </h1>
                                 <p className="font-semibold text-slate-600">
-                                    Uploads the file and folder to user drive
-                                    using api using outh2.0 authentication
+                                    A small frontend project for a ecommerce
+                                    site with some example products
                                 </p>
                             </div>
                             <div className="flex gap-2 mt-2">
                                 <h2 className="bg-red-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #React
+                                    #NextJs
                                 </h2>
                                 <h2 className="bg-green-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #JavaScript
+                                    #React
                                 </h2>
                                 <h2 className="bg-blue-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #CSS
+                                    #TailwindCSS
                                 </h2>
                             </div>
                         </div>
@@ -207,18 +209,23 @@ function App() {
 
                     <div
                         id="project3"
-                        className="border-2 border-slate-200 p-2 rounded-lg max-w-[270px] overflow-hidden h-[29rem] group hover:border-indigo-500"
+                        className="border-2 border-slate-200 shadow-md p-2 rounded-lg max-w-[270px] overflow-hidden h-[29rem] group hover:border-indigo-500"
                     >
                         {/* Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. */}
-                        <div className="w-1/6 absolute z-10 flex justify-end translate-y-1">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 496 512"
-                                className="size-10 rounded-lg p-2 bg-slate-200 mr-2"
-                            >
-                                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                            </svg>
-                        </div>
+                        <a
+                            href="https://github.com/Silent0bserv3r/vegibuy-graphql"
+                            target="_blank"
+                        >
+                            <div className="w-[250px] absolute z-10 flex justify-end translate-y-1 group/git">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 496 512"
+                                    className="size-10 rounded-lg p-2 bg-slate-200 group-hover/git:bg-slate-300 mr-2"
+                                >
+                                    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </div>
+                        </a>
                         <img
                             src="https://img.freepik.com/free-vector/app-development-illustration_52683-47931.jpg?w=996&t=st=1709793480~exp=1709794080~hmac=b549901e4549c5e4f21aab24949fb56d8b05bcf7337faeb2379731356783891d"
                             alt="project"
@@ -229,37 +236,36 @@ function App() {
                         <div className="my-2 p-1">
                             <div className="mt-4 flex flex-col gap-3 text-ellipsis">
                                 <h1 className="text-3xl font-bold text-slate-500 group-hover:text-slate-800">
-                                    Shortener
+                                    Vegibuy-Nest
                                 </h1>
                                 <p className="font-semibold text-slate-600">
-                                    Uploads the file and folder to user drive
-                                    using api using outh2.0 authentication
+                                    A NestJS backend for Auth, creation and
+                                    deletion of products
                                 </p>
                             </div>
                             <div className="flex gap-2 mt-2">
                                 <h2 className="bg-red-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #React
+                                    #NestJs
                                 </h2>
                                 <h2 className="bg-green-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #JavaScript
+                                    #OAuth
                                 </h2>
                                 <h2 className="bg-blue-400 text-xs py-1 px-2 text-slate-700 font-semibold rounded-full">
-                                    #CSS
+                                    #GraphQl
                                 </h2>
                             </div>
                         </div>
                     </div>
 
-                    <div
+                    {/* <div
                         id="project4"
                         className="border-2 border-slate-200 p-2 rounded-lg max-w-[270px] overflow-hidden h-[29rem] group hover:border-indigo-500"
                     >
-                        {/* Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. */}
-                        <div className="w-1/6 absolute z-10 flex justify-end translate-y-1">
+                        <div className="w-1/6 absolute z-10 flex justify-end translate-y-1 group/git">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 496 512"
-                                className="size-10 rounded-lg p-2 bg-slate-200 mr-2"
+                                className="size-10 rounded-lg p-2 bg-slate-200 group-hover/git:bg-slate-300 mr-2"
                             >
                                 <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
                             </svg>
@@ -293,7 +299,7 @@ function App() {
                                 </h2>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
@@ -333,28 +339,41 @@ function App() {
                                     </li>
                                 </ul>
                             </div>
+                            <div className="flex justify-end items-center">
+                                <img
+                                    src="/lpu.png"
+                                    alt="LPU"
+                                    height={200}
+                                    width={200}
+                                />
+                                <div className="border-t-[20px] border-t-transparent border-b-[20px] border-b-transparent border-l-[20px] border-solid border-l-blue-900 ml-2"></div>
+                            </div>
                             <div className="rounded-lg px-6 border-b-2 bg-slate-100 py-10 row-start-3">
                                 <h1 className="text-4xl font-bold text-slate-700">
-                                    10 + 2 PCM
+                                    Software Engineer
                                 </h1>
                                 <h2 className="font-semibold text-slate-500">
-                                    DAV CBSE Board
+                                    Syscloud Technologies Pvt. Ltd.
                                 </h2>
                                 <ul className="list-disc list-outside ml-4 mt-4">
                                     <li>
-                                        I delve deeper into core subjects like
-                                        Mathematics, Physics, and Chemistry,
-                                        exploring advanced concepts.
+                                        Proficient in PHP and JavaScript, I
+                                        contribute to building robust and
+                                        scalable applications.
                                     </li>
                                     <li>
-                                        I focus on rigorous preparation for
-                                        board examinations, mastering time
-                                        management and critical thinking skills.
+                                        Skilled in identifying and fixing code
+                                        bugs, I ensure software reliability. I
+                                        utilize Grafana, Elasticsearch, and
+                                        Fluentd for proactive system monitoring.
                                     </li>
                                     <li>
-                                        I receive guidance on career options and
-                                        life skills development, preparing for
-                                        challenges beyond academics.
+                                        I manage AWS resources like FSx, EC2,
+                                        and ECS for optimized performance.
+                                        Additionally, I proficiently administer
+                                        PostgreSQL databases, ensuring data
+                                        security and integrity while providing
+                                        prompt user support.
                                     </li>
                                 </ul>
                             </div>
@@ -362,7 +381,7 @@ function App() {
                     </div>
                     <div
                         id="divider"
-                        className="absolute mt-14 w-2 h-[900px] bg-slate-200 left-1/2 flex justify-center"
+                        className="absolute mt-28 w-2 h-[900px] bg-slate-200 left-1/2 flex justify-center"
                     >
                         <div
                             id="traveler"
@@ -383,30 +402,50 @@ function App() {
                     </div>
                     <div className="w-full p-3" id="rightSide">
                         <div className="grid grid-cols-1 grid-rows-3 gap-5">
+                            <div className="flex items-center justify-start">
+                                <div className="border-t-[20px] border-t-transparent border-b-[20px] border-b-transparent border-r-[20px] border-solid border-r-blue-900"></div>
+                                <img
+                                    src="/dsvn.png"
+                                    alt="DSVN"
+                                    width={200}
+                                    height={200}
+                                />
+                            </div>
                             <div className="rounded-lg px-6 border-b-2 bg-slate-100 py-10 row-start-2">
                                 <h1 className="text-4xl font-bold text-slate-700">
-                                    10 + 2 PCM
+                                    BTech CSE
                                 </h1>
                                 <h2 className="font-semibold text-slate-500">
-                                    DAV CBSE Board
+                                    Lovely Professional University
                                 </h2>
                                 <ul className="list-disc list-outside ml-4 mt-4">
                                     <li>
-                                        I delve deeper into core subjects like
-                                        Mathematics, Physics, and Chemistry,
-                                        exploring advanced concepts.
+                                        I learned programming basics, data
+                                        structures, algorithms, and core
+                                        computer science principles.
                                     </li>
                                     <li>
-                                        I focus on rigorous preparation for
-                                        board examinations, mastering time
-                                        management and critical thinking skills.
+                                        I honed my expertise in various domains
+                                        such as software engineering, web
+                                        technologies, artificial intelligence.
                                     </li>
                                     <li>
-                                        I receive guidance on career options and
-                                        life skills development, preparing for
-                                        challenges beyond academics.
+                                        I also focused on cultivating soft
+                                        skills, ethical practices, and teamwork,
+                                        ensuring I'm well-prepared for a
+                                        successful career in the dynamic field
+                                        of IT.
                                     </li>
                                 </ul>
+                            </div>
+                            <div className="flex items-center justify-start">
+                                <div className="border-t-[20px] border-t-transparent border-b-[20px] border-b-transparent border-r-[20px] border-solid border-r-blue-900"></div>
+                                <img
+                                    src="/syscloud.png"
+                                    alt="syscloud"
+                                    width={200}
+                                    height={200}
+                                />
                             </div>
                         </div>
                     </div>
