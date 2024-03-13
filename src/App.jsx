@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useEffect } from "react";
 
 function App() {
@@ -29,7 +29,9 @@ function App() {
                             (error) => {
                                 console.log("FAILED...", error);
                             }
-                        );
+                        ).finally(() => {
+                            this.reset();
+                        });
                 } else {
                     console.log("No name or Email Provided");
                 }
@@ -546,8 +548,8 @@ function App() {
                     >
                         UnDraw
                     </a>
-                    <a href="https://codebug.in" target="_blank">
-                        {"  "}@CodeBug
+                    <a href="https://github.com/Silent0bserv3r/silent0bserv3r.github.io" target="_blank">
+                        {"  "}Github Code
                     </a>
                 </div>
             </footer>
